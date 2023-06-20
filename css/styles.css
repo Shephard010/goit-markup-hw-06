@@ -704,3 +704,18 @@ body {
   opacity: 0;
   pointer-events: none;
 }
+
+/**
+  |============================
+  | SANDBOX
+  |============================
+*/
+
+.box {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
